@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow:hidden;height: 100% ">
+<head>
+    <meta charset="UTF-8">
+    <title>个人网站</title>
+    <link rel="stylesheet" type="text/css" href="css/baraja.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/less.css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+    <style>
+        #play{
+            width: 30px;height: 30px;margin-top: 7.5px;float: right;margin-right: 50px;position: relative;
+        }
+        #play>img{
+            width: 100%;
+            position: absolute;
+            top:0;
+            left:0;
+        }
+    </style>
+</head>
+<body style="overflow:hidden;height: 100%">
+<div class="header-pc">
+    <div class="logo">
+        <a href=""><img src="img/logo.png" alt=""></a>
+    </div>
+    <audio src="music/LoveU2.mp3" autoplay id="music"></audio>
+    <div id="play">
+        <img src="img/暂停.png" alt="">
+        <img src="img/播放.png" alt="" style="display: none">
+    </div>
+</div>
+<div class="page-wrap fullpage-wrapper" style="height: 400%">
+    <div class="section page1 fp-section active empty bb">
+        <div class="slide-wrap">
+            <ul>
+                <li>
+                    <video src="img/bg1.mp4" loop autoplay></video>
+                    <div class="bg"></div>
+                    <div class="page-text">
+                        <h1>你只管努力，上天自有安排</h1>
+                        <p>爱前端，爱编程，爱新技术</p>
+                    </div>
+                </li>
+                <li>
+                    <video src="img/bg2.mp4" loop autoplay></video>
+                    <div class="bg"></div>
+                    <div class="page-text">
+                        <h1>生活是一种绵延不绝的渴望，渴望不断上升</h1>
+                        <p>变的更伟大而高贵</p>
+                    </div>
+                </li>
+                <li>
+                    <video src="img/bg3.mp4" loop autoplay style="top: -100px;"></video>
+                    <div class="bg"></div>
+                    <div class="page-text">
+                        <h1>一个人最大的敌人是自己，没有完不成的任</h1>
+                        <p>只有失去信心的自己</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="slide-nav-wrap">
+            <div id="slide-nav">
+                <ul>
+                    <li class="nav-line"></li>
+                    <li class="nav-btn">
+                        <div class="nav-btn-before">
+                        </div>
+                        <span></span>
+                    </li>
+                    <li class="nav-line"></li>
+                    <li class="nav-btn">
+                        <div class="nav-btn-before">
+                        </div>
+                        <span></span>
+                    </li>
+                    <li class="nav-line"></li>
+                    <li class="nav-btn">
+                        <div class="nav-btn-before">
+                        </div>
+                        <span></span>
+                    </li>
+                    <li class="nav-line"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section page2 fp-section" >
+        <h1 class="empty" style="text-align: center;line-height: 100px;margin-top: 50px">关于我  <span style="font-size: 12px">ABOUT ME</span></h1>
+        <div class="per-info">
+            <div class="cover"></div>
+            <div class="photo">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="info-title">
+                <h3>前端工程师</h3>
+            </div>
+            <div class="info-left">
+                <p>
+                    姓名：杜媛
+                    <br>
+                    年龄：23
+                    <br>
+                    籍贯：山西省阳泉市
+                    <br>
+                    学历：本科
+                </p>
+            </div>
+            <div class="info-right container">
+                <ul class="row bb">
+                    <li class="col-s-hide col-m-3 col-l-3"><div class="bb">HTML</div></li>
+                    <li class="col-s-hide col-m-3 col-l-3"><div class="bb">CSS</div></li>
+                    <li class="col-s-hide col-m-3 col-l-3"><div class="bb">JS</div></li>
+                    <li class="col-s-hide col-m-3 col-l-3"><div class="bb">jQuery</div></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="section page3 fp-section" >
+        <div class="container product empty bb">
+                <div class="baraja-demo">
+                    <ul id="baraja-el" class="baraja-container" >
+                        <li style="overflow: hidden"><img src="img/pro1.jpg" alt="image1"/><h4><a target="_blank" href="http://dydydy.duapp.com/news/php/login.php">新闻发布系统</a></h4><p>主要运用的是PHP、HTML、CSS、Mysql，实现的一个小型新闻管理系统，实现对新闻的增删改查</p></li>
+                        <li style="overflow: hidden"><img src="img/pro3.jpg" alt="image2"/><h4><a target="_blank" href="http://dydydy.duapp.com/phpcms/index.php">广州欢腾鞋业</a></h4><p>主要运用的是phpcms这款开发框架，使用它更加快速高效</p></li>
+                        <li style="overflow: hidden"><img src="img/pro2.jpg" alt="image3"/><h4><a target="_blank" href="http://dydydy.duapp.com/pure/index.php">泊美</a></h4><p>主要运用的是phpcms这款开发框架，使用它更加快速高效</p></li>
+                        <li style="overflow: hidden"><img src="img/pro1.jpg" alt="image4"/><h4><a target="_blank" href="http://dydydy.duapp.com/mycms/index.php">个人博客系统</a></h4><p>主要运用的是PHP、HTML、CSS、Mysql，实现的一个个人博客管理系统，后台实现对文章留言的管理，前台用户可查看文章留言，并且登录后即可发表留言</p></li>
+                        <li style="overflow: hidden"><img src="img/room.png" alt="image5"/><h4><a target="_blank" href="https://duyuany.github.io/PERSONAL-WEBSITE./room/room.html">3D房间</a></h4><p></p></li>
+                        <li style="overflow: hidden"><img src="img/rungame.png" alt="image6"/><h4><a target="_blank" href="https://duyuany.github.io/PERSONAL-WEBSITE./rungame/run.html">跑酷游戏</a></h4><p></p></li>
+                        <li style="overflow: hidden"><img src="img/canvas.png" alt="image7"/><h4><a target="_blank" href="https://duyuany.github.io/PERSONAL-WEBSITE./canvas/index.html">画板</a></h4><p></p></li>
+                        <li style="overflow: hidden"><img src="img/news.png" alt="image8"/><h4><a target="_blank" href="https://duyuany.github.io/newsapp/yd.html">新闻App</a></h4><p></p></li>
+                        <li style="overflow: hidden"><img src="img/music.png" alt="image9"/><h4><a target="_blank" href="https://duyuany.github.io/musicapp/yd.html">音乐App</a></h4><p></p></li>
+                        <li style="overflow: hidden"><img src="img/workapp.png" alt="image9"/><h4><a target="_blank" href="https://duyuany.github.io/musicapp/yd.html">workApp</a></h4><p></p></li>
+                    </ul>
+                </div>
+                <nav class="actions">
+                    <span id="nav-fanOther2">打开</span>
+                </nav>
+                <nav class="actions light">
+                    <span id="nav-prev">&lt;</span>
+                    <span id="nav-next">&gt;</span>
+                    <span id="close">关闭</span>
+                </nav>
+            <!--</section>-->
+        </div>
+    </div>
+    <div class="section page4 fp-section" >
+        <div class=" wrapper">
+            <div class="img">
+                <img src="img/img57.png" class="quan empty "/>
+                <div class="wen bb">
+                    <h1 class="weixin bb"></h1>
+                    <h3 style="position: absolute;top:0px;left: -140px;" class="bb">TEL:15735806404</h3>
+                    <h3 style="position: absolute;bottom:100px;left:-280px;" class="bb">E-mail:1013672828@qq.com</h3>
+                    <h3 style="position: absolute;bottom:0px;right: -140px;" class="bb">QQ:1013672828</h3>
+                </div>
+            </div>
+            <div class="container text">
+                <ul class="row" style="padding-left:20px; ">
+                    <li class="col-l-hide col-m-12 col-m-12"><h3>TEL:15735806404</h3></li>
+                    <li class="col-l-hide col-m-12 col-m-12"><h3>E-mail:1013672828@qq.com</h3></li>
+                    <li class="col-l-hide col-m-12 col-m-12"><h3>QQ:1013672828</h3></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="btn-wrap">
+    <ul>
+        <li class="btn-active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<div class="sidebar">
+    
+</div>
+<!--<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>-->
+<script type="text/javascript" src="js/jquery.baraja.js"></script>
+<script type="text/javascript" src="js/pro.js"></script>
+</body>
+</html>
