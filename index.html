@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/less.css">
+    <link rel="stylesheet" href="css/button.css">
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/jquery.mousewheel.js"></script>
     <script src="js/touch.js"></script>
@@ -141,16 +142,23 @@
                         <li style="overflow: hidden"><img src="img/canvas.png" alt="image7"/><h4><a target="_blank" href="https://duyuany.github.io/PERSONAL-WEBSITE./canvas/index.html">画板</a></h4><p></p></li>
                         <li style="overflow: hidden"><img src="img/news.png" alt="image8"/><h4><a target="_blank" href="https://duyuany.github.io/newsapp/yd.html">新闻App</a></h4><p></p></li>
                         <li style="overflow: hidden"><img src="img/music.png" alt="image9"/><h4><a target="_blank" href="https://duyuany.github.io/musicapp/yd.html">音乐App</a></h4><p></p></li>
-                        <li style="overflow: hidden"><img src="img/workapp.png" alt="image9"/><h4><a target="_blank" href="https://duyuany.github.io/musicapp/yd.html">workApp</a></h4><p></p></li>
+                        <li style="overflow: hidden"><img src="img/workapp.png" alt="image9" style="height: 50%;width: 50%"/><h4><a target="_blank" href="https://duyuanapp.duapp.com">workApp</a></h4><p></p></li>
                     </ul>
                 </div>
-                <nav class="actions">
-                    <span id="nav-fanOther2">打开</span>
-                </nav>
-                <nav class="actions light">
+                <span class="button-wrap" id="nav-fanOther2">
+                    <button class="button button-circle" style="background: #a5de37">
+                        <i class="fa fa-cloud" style="font-size: 12px;color: #fff;">打开</i>
+                    </button>
+                </span>
+            <span class="button-wrap" id="close">
+                    <button class="button button-circle" style="background: #ff4351">
+                        <i class="fa fa-cloud" style="font-size: 12px;color: #fff;">关闭</i>
+                    </button>
+                </span>
+                <nav class="actions light" style="text-align: center">
                     <span id="nav-prev">&lt;</span>
                     <span id="nav-next">&gt;</span>
-                    <span id="close">关闭</span>
+                    <!--<span id="close">关闭</span>-->
                 </nav>
             <!--</section>-->
         </div>
